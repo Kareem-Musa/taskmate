@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>index - page </title>
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+   <div class="row mt-5">
+    <div class="col-lg-4">
+     <img src="{% static 'images/stickynotes.jpg'%}" class="rounded-lg shadow-sm" alt="notes" width="360" height="250" />
+    </div>
+    <div class="col-lg-4">
+     <img src="{% static 'images/stickynotes.jpg'%}" class="rounded-lg shadow-sm" alt="notes" width="360" height="250" />
+    </div>
+    <div class="col-lg-4">
+     <img src="{% static 'images/stickynotes.jpg'%}" class="rounded-lg shadow-sm" alt="notes" width="360" height="250" />
+    </div>
+   </div>
+   <div class="row mt-5">
+    <div class="col-md-10 offset-md-1">
+     <center><p class="h1 text-primary">this text this text this text this text this text</p></center>
+     <center><p class="h2 mt-3">this text this text this text this text this text</p></center>
+     <center><p class="h5">this text this text this text this text this text</p></center>
+      <a href="{% url 'todolist' %}">
+       <center><button type="button" class="btn btn-primary btn-lg roundedl-lg shadow mt-3">Let 's start</button></center>
+      </a>
+    </div>
+   </div>
+</div>
+{% endblock content %}

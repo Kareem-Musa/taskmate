@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}
+  <title>To do list - taskmate</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+<br />
+{% if messages %}
+{% for message in messages %}
+ <div class="alert alert-info alert-dismissible fade show" role="alert">
+  {{ message }}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+ </div>
+{% endfor %}
+{% endif %}
+
+{% if task.manager == request.user %}
+<form method="post" class="row">
+{% csrf_token %}
+    <label class="col-lg-4"></label>
+    <input type="text" class="form-control col-lg-6" name="task" value="{{ task.task }}">
+    <input type="hidden"  name="done" value="{{task.done}}" >
+  <button type="submit" class="btn btn-success col-lg-2">Update Task</button>
+</form>
+{% else %}
+<p>Access Restricted , You not Allowed</p>
+{% endif %}
+</div>
+{% endblock content %}
