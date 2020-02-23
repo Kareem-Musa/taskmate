@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94b69939-dc71-44d9-8ff1-2936453a771e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/taskmate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/stickynotes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmate/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmate/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmate/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmate/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taskmate/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/migrations/0002_tasklist_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/templates/edit_task.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/templates/todolist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todolist_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/templates/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582371706101</updated>
       <workItem from="1582371727950" duration="8689000" />
-      <workItem from="1582447950549" duration="1641000" />
+      <workItem from="1582447950549" duration="2462000" />
     </task>
     <servers />
   </component>
